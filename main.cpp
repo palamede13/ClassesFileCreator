@@ -73,5 +73,6 @@ int main(int ac, char **av)
 	{
 		replace_template(av[i]);
 	}
+	std::cout << "The job is done." << std::endl;
 	return (0);
 }
