@@ -7,6 +7,7 @@ Template::Template(void)
 
 Template::Template(const Template &copy)
 {
+	*this = copy;
 	return ;
 }
 

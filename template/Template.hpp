@@ -9,7 +9,7 @@ class Template
 	public :
 		Template();
 		~Template();
-		Template(const Template&);
+		Template(const Template& copy);
 		
 		Template &operator=(const Template &op);
 };
