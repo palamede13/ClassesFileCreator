@@ -59,10 +59,10 @@ int	replace(std::string className, std::string format, std::string s1, std::stri
 	return (0);
 }
 
-void	replace_template(char *className)
+void	replace_template(char *Name)
 {
-	replace((std::string)className, (std::string)".cpp", (std::string)"Template", (std::string)"template/Template");
-	replace((std::string)className, (std::string)".hpp", (std::string)"Template", (std::string)"template/Template");
+	replace((std::string)Name, (std::string)".cpp", (std::string)"Template", (std::string)"template/Template");
+	replace((std::string)Name, (std::string)".hpp", (std::string)"Template", (std::string)"template/Template");
 }
 
 int main(int ac, char **av)
